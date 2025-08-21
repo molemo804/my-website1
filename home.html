@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home page</title>
+        <style type="text/css">
+            @media  screen  and (max-width: 800px){
+                .main{
+                    background-color: rgb(14, 163, 0);
+                }
+                .logo{
+                    font-weight: bold;
+                    font-size: 1rem;
+                    color: black;
+                }
+                .logo span{
+                    color: red;
+                }
+            }
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                list-style: none;
+                border: none;
+                outline: none;
+            }
+            .main{
+                height: 100%;
+                width: 100%;
+                background: url(login.jpg)no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+            nav{
+                padding: 10px 25px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .logo{
+                font-weight: bold;
+                font-size: 1.2rem;
+                color: white;
+                transition: ease 100ms;
+                cursor: pointer;
+            }
+            .logo span{
+                color: brown;
+            }
+            .logo:hover{
+                transform: scale(1.2);
+            }
+            nav ul{
+                display: flex;
+                gap: 2rem;
+            }
+            nav ul a{
+                text-decoration: none;
+                font-size: 1rem;
+                font-weight: bold;
+                color: white;
+                transition: ease .2s;
+            }
+            nav ul a:hover{
+                color: brown;
+            }
+            .btn-b button{
+                display: inline-block;
+                padding: 8px 25px;
+                background-color: white;
+                border-radius: 10px;
+                cursor: pointer;
+                margin-left: 10px;
+                border: none;
+            }
+            .btn-b button:hover{
+                opacity: 0.9;
+            }
+            .btn-b button a{
+                font-size: 0.7rem;
+                font-weight: bold;
+                color: black;
+                text-decoration: none;
+            }
+            button{
+                width: 100%;
+                padding: 10px 15px;
+                border-radius: 3rem;
+                margin-top: 20px;
+            }
+            button a{
+                text-decoration: none;
+                font-size: 1rem;
+                font-weight: bold;
+                color: white;
+            }
+            .top .sellers1{
+                font-size: 48px;
+                font-weight: bold;
+                color: white;
+                background-color: rgb(39, 39, 39);
+                border-radius: 10px;
+                border-left: black; 
+                margin-top: 0.1%;
+            }
+            .top{
+                background-color: rgb(27, 27, 27);
+            }
+            .pic1{
+                margin-top: 1%;
+                margin-left: 4%;
+                border: 5px solid rgb(39, 39, 39);
+                border-radius: 10px;
+                width: 260.1px;
+                background: url(login1.jpg);
+            }
+            .pic1 span{
+                color: red
+            }
+            .pictures .pic1 p{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 15px;
+                color: black;
+                text-align: center;
+            }
+            .top .vegatable{
+                font-size: 48px;
+                font-weight: bold;
+                text-align: center;
+                background-color: rgb(39, 39, 39);
+                border-radius: 10px;
+                border-width: 100%;
+                color: white;
+                margin-top: 3%;
+            }
+            .top .vegatable a{
+                text-decoration: none;
+                color: white;
+            }
+            .top .grains{
+                font-size: 48px;
+                font-weight: bold;
+                text-align: center;
+                background-color: rgb(39, 39, 39);
+                border-radius: 10px;
+                border-width: 100%;
+                color: white;
+                margin-top: 3%;
+            }
+            .top .grains a{
+                text-decoration: none;
+                color: white;
+            }
+            .grains-pic{
+                margin-left: 3%;
+                margin-top: 3%;
+            }
+            .grains-pic1{
+                margin-left: 53%;
+                margin-top: -29.9%;
+            }
+            .veg-pic{
+                margin-left: 3%;
+                margin-top: 3%;
+            }
+            .veg-pic1{
+                margin-left: 53%;
+                margin-top: -33.5%;
+            }
+            .animal-pic{
+                margin-left: 3%;
+                margin-top: 3%;
+            }
+            .animal-pic1{
+                margin-left: 53%;
+                margin-top: -30%;
+            }
+            .top .animal{
+                font-size: 48px;
+                font-weight: bold;
+                text-align: center;
+                background-color: rgb(39, 39, 39);
+                border-radius: 10px;
+                border-width: 100%;
+                color: white;
+                margin-top: 3%;
+            }
+            .top .animal a{
+                text-decoration: none;
+                color: white;
+            }
+            .back{
+                margin-left: 30%;
+                margin-bottom: 1.5%;
+                width: 40%;
+                background-color: black;
+            }
+            .back:hover{
+                opacity: 0.5;
+            }
+            footer{
+                color: black;
+            }
+            footer #foot span{
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <nav>
+                <div class="logo">
+                    LESOTHO<span>-Hub</span>
+                </div>
+                <ul>
+                    <li>
+                        <a href="home.html">Home</a></li>
+                    <li><a href="stock.html">Products</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="Contact.html">Contact us</a></li>
+                    <li><a href="tips.html">Tips</a></li>
+                </ul>
+                <div class="btn-b">
+                    <button><a href="a" onclick="alert('Can not Sign in!')">Sign out</a></button>
+                </div>
+        </div>
+        <div class="top">
+            <p class="sellers1">TOP SELLER</p>
+            <div class="pictures">
+                <div class="pic1">
+                    <img src="IMG(3).JPG" height="400px" width="250px">
+                    <p>
+                        <strong>
+                            Matlatsane Molefi<br>
+                            Ranking 1st top seller<br>
+                            R<span>200K</span> net-worth
+                    </p>
+                </div>
+            </div>
+
+            <p class="vegatable"><a href="stock.html">Vegatable</a></p>
+            <div class="veg-pic">
+                <img src="froods.jpg." height="450px" width="600px">
+            </div>
+            <div  class="veg-pic1">
+                <img src="verg.jpg" height="450px" width="600px">
+            </div>
+
+
+
+            <p class="grains"><a href="stock.html">Grains</a></p>
+            <div class="grains-pic">
+                <img src="grainfarm.jpg" height="400px" width="600px">
+            </div>
+            <div class="grains-pic1">
+                <img src="grains.jpg" height="400px" width="600px">
+            </div>
+
+
+            <p class="animal"><a href="stock.html">Animals</a></p>
+            <div class="animal-pic">
+                <img src="horse.jpg" height="400px" width="600px">
+            </div>
+            <div class="animal-pic1">
+                <img src="farm-animals.jpg" height="400px" width="600px">
+            </div>
+            <button class="back"><a href="Login-form.html">BACK</a></button>
+        </div>
+        <footer>
+            <div id="foot">
+                <strong>
+                    DESIGNED by KRUKOV-TEk<br>
+                </strong>
+                    <span>&#169</span>Copywrite of 2025
+                </div>
+        </footer>
+    </body>
+</html>
